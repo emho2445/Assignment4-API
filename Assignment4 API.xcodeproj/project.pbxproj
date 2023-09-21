@@ -11,6 +11,8 @@
 		2577A14F2ABBE07800D3F08F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2577A14E2ABBE07800D3F08F /* ContentView.swift */; };
 		2577A1512ABBE07A00D3F08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2577A1502ABBE07A00D3F08F /* Assets.xcassets */; };
 		2577A1552ABBE07A00D3F08F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2577A1542ABBE07A00D3F08F /* Preview Assets.xcassets */; };
+		2577A15E2ABBE43900D3F08F /* SunTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2577A15D2ABBE43900D3F08F /* SunTimeView.swift */; };
+		2577A1622ABC293300D3F08F /* TimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2577A1612ABC293300D3F08F /* TimeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		2577A1502ABBE07A00D3F08F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2577A1522ABBE07A00D3F08F /* Assignment4_API.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Assignment4_API.entitlements; sourceTree = "<group>"; };
 		2577A1542ABBE07A00D3F08F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2577A15D2ABBE43900D3F08F /* SunTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTimeView.swift; sourceTree = "<group>"; };
+		2577A1612ABC293300D3F08F /* TimeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				2577A14C2ABBE07800D3F08F /* Assignment4_APIApp.swift */,
 				2577A14E2ABBE07800D3F08F /* ContentView.swift */,
+				2577A15D2ABBE43900D3F08F /* SunTimeView.swift */,
+				2577A1612ABC293300D3F08F /* TimeDetailView.swift */,
 				2577A1502ABBE07A00D3F08F /* Assets.xcassets */,
 				2577A1522ABBE07A00D3F08F /* Assignment4_API.entitlements */,
 				2577A1532ABBE07A00D3F08F /* Preview Content */,
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2577A15E2ABBE43900D3F08F /* SunTimeView.swift in Sources */,
+				2577A1622ABC293300D3F08F /* TimeDetailView.swift in Sources */,
 				2577A14F2ABBE07800D3F08F /* ContentView.swift in Sources */,
 				2577A14D2ABBE07800D3F08F /* Assignment4_APIApp.swift in Sources */,
 			);
